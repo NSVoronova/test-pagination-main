@@ -9,3 +9,22 @@ $font-family-sans-serif: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, 
 @import "bootstrap/scss/alert";
 @import "bootstrap/scss/pagination";
 @import "bootstrap/scss/tables";
+
+.pagination-container {
+  gap: 3px;
+
+  li.disabled {
+    span {
+      background-color: white;
+    }
+   
+}
+  li {
+    a:focus {
+      outline: none;
+      box-shadow: none;
+      background-color: inherit;
+    }
+  }
+    
+}
